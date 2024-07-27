@@ -5,11 +5,14 @@
 Flow chat is in here 
  - `https://www.figma.com/board/s3xSCN7ZzJ4MXxLckCbZr7/Laravel-Library-Management?node-id=0-1&t=S75kelFppJ8cAhzM-1`
 
+Project Setup
 - First run this for building docker container
     `docker-compose up -d --build`
 
 - Run composer install command to install required dependencies
     `docker-compose exec app composer install`
+
+- Copy data from `.env.example` to `.env`
 
 - Run this comment for table migration
     `docker-compose exec app php artisan migrate`
